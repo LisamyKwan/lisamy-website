@@ -1,8 +1,23 @@
 body {
-  font-size: small;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  line-height: 1.6em;
+        background-color:darkgray;
+        font-size: small;
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        line-height: 1.6em;
+}
+#header {
+  background-color:whitesmoke;
+  margin: 10px;
+  padding: 15px;
+}
+#main {
+  background-color:whitesmoke;
+  padding: 15px;
 }
 h1 {
-  font-size: 150%;
+        font-size: 150%;
 }
+
+
+
+
+
