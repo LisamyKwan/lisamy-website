@@ -1,20 +1,43 @@
 body {
         background-color:darkgray;
         font-size: small;
-        font-family: Verdana, Helvetica, Arial, sans-serif;
+        font-family: 'muli', sans-serif;
         line-height: 1.6em;
 }
 #header {
   background-color:whitesmoke;
   margin: 10px;
-  padding: 15px;
+  padding: 15px 40px 15px 40px;
+}
+#header-btns {
+  text-align: right;
+  word-spacing: 300%;
+}
+#header-btns a:link {
+  color:black;
+  text-decoration: none;
+}
+#header-btns a:visited{
+  color:rgb(115, 84, 50);
+}
+#header-btns a:hover {
+  color:black;
+}
+#header h1 {
+  font-size: 300%;
+  line-height: 0em;
+  float: left;
 }
 #main {
   background-color:whitesmoke;
+  margin: 10px;
   padding: 15px;
 }
 h1 {
         font-size: 150%;
+}
+h2 {
+  font-size: 130%
 }
 
 
