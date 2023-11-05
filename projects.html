@@ -18,14 +18,22 @@
       </h1>
     </div>
     <div id="main">
+      <h1>Projects</h1>
+      <h2>1. Rock-Paper-Scissors Game
+        <button onclick="
+          toSite();
+          ">GO!</button>
+      </h2>
       <p>
-        <h1>Welcome, </h1>
-        The site is meant for showcasing my projects/porfolio.  It is still in construction at the moment.  I'll put extra time and work to get this going by the end of this November if not earlier. fingers crossed. ;)
-      </p>
-      <p>
-        Stay tuned!
+        Choose rock, paper, or scissors in each game and compete with a bot!
+        
       </p>
     </div>
+    <script>
+      function toSite(){
+        document.querySelector('#main').innerHTML = '<iframe src="rpsgame.html"></iframe>';
+      }
+    </script>
     <div id="footer"></div>
   </body>
 </html>
