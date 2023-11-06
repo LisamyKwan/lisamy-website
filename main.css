@@ -8,9 +8,9 @@ body {
   background-color: #e9cfd8;
   margin: 10px;
   padding: 15px 40px 15px 40px;
-   word-spacing: 5rem;
 }
 #header-btns {
+  word-spacing: 5rem;
   text-align: right;
 }
 #header-btns a:link {
