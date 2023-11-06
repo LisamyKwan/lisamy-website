@@ -10,7 +10,7 @@ body {
   padding: 15px 40px 15px 40px;
 }
 #header-btns {
-  word-spacing: 3rem;
+  word-spacing: 2rem;
   text-align: right;
 }
 #header-btns a:link {
