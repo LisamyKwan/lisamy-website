@@ -11,7 +11,7 @@ body {
 }
 #header-btns {
   text-align: right;
-  word-spacing: 2rem;
+  word-spacing: 5rem;
 }
 #header-btns a:link {
   color:black;
