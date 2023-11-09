@@ -3,21 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Lisa Kwan's site</title>
-    <link type="text/css" rel="stylesheet" href="https://lisamykwan.github.io/websites/main.css">
+    <link type="text/css" rel="stylesheet" href="main.css">
   </head>
   <body>
     <div id="header">
       <h1>MYK</h1>
         <div id="header-btns">
           <h2>
-            <a href="https://lisamykwan.github.io/websites/">Home</a>
-            <a href="https://lisamykwan.github.io/websites/projects.html">Projects</a>
-            <a href="https://lisamykwan.github.io/websites/about.html">About</a>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <button class="js-mode-btn"
+            onclick="
+              changeMode();
+            ">Light</button>
           </h2>
+
         </div>
       </h1>
     </div>
     <div id="main">
+      <script>
+        function changeMode() {
+          const modeButton = document.querySelector('.js-mode-btn');
+          if (modeButton.innerHTML === 'Light'){
+            modeButton.innerHTML = 'Dark';
+          } else {
+            modeButton.innerHTML = 'Light';
+          }
+        }
+      </script>
       <p>
         <h1>Welcome, </h1>
         The site is meant for showcasing my projects/porfolio.  It is still in construction at the moment.  There will be daily updates and project showcasing. fingers crossed. ;)
