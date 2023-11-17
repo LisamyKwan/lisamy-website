@@ -1,0 +1,11 @@
+{
+  "name": "websites",
+  "version": "1.0.0",
+  "description": "*To load other linked pages correctly, be sure to use the correct url..\r \"https://lisamykwan.github.io/websites/ _any file of choice_ \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
