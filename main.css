@@ -1,37 +1,62 @@
 body {
+  margin: auto 0;
   background-color: #e9d9de;
-  font-size: small;
   font-family: 'muli', sans-serif;
-  line-height: 1.6em;
+  /*line-height: 1.6em;*/
 }
-#header {
-  background-color: #e9cfd8;
-  margin: 10px;
-  padding: 15px 40px 15px 40px;
+nav {
+  background-color: hsl(339, 37%, 86%);
+  /*padding: 15px 40px 15px 40px;*/
 }
-#header-btns {
-  word-spacing: 2rem;
-  text-align: right;
+.main-nav {
+  display: flex;
+  margin: 0;
 }
-#header-btns a:link {
-  color:black;
+.main-nav li {
+  list-style: none;
+  font-size: 24px;
+  padding: 0px 20px 0px 15px;
+  line-height: 5.5em;
+}
+#nameplate {
+  color: #c79e42;
+  font-size: 30px;
+  line-height: 2em;
+}
+@media only screen and (max-width:600px) {
+/*media queries to make nav bar responsive to windows*/
+  .main-nav {
+    padding: 0;
+  }
+  .main-nav li {
+    font-size: 15px;
+  }
+  #nameplate {
+    font-size:120%;
+    line-height:2em;
+  }
+}
+
+.color-mode-btn {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.js-mode-btn {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.main-nav a {
+  color:#c79e42;
   text-decoration: none;
 }
-#header-btns a:visited{
-  color:#c79e42;
-}
-#header-btns a:hover {
+.main-nav a:hover {
   color:black;
 }
-#header h1 {
-  color: #c79e42;
-  font-size: 250%;
-  line-height: 0em;
-  float: left;
-}
+
 #main {
   background-color:#f3edef;
-  margin: 10px;
+  border-radius:12px;
+  margin: 20px;
   padding: 30px;
 }
 iframe {
@@ -39,20 +64,13 @@ iframe {
   height: 300px;
   weight: 400px;
 }
-h1 {
+#main h1 {
   font-size: 150%;
 }
-h2 {
-  font-size: 130%
-}
-li {
+#main li {
   list-style-type: square; /*other options including disc(default), circle*/
   /*you may also use list-style-image** to setup ur own custom marker*/
   padding-top: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
-
-
-
-
 
